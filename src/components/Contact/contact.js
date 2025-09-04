@@ -52,7 +52,7 @@ const Contact = () => {
           <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
           <button type="submit"  value='send' className="submitBtn">Submit</button>
           <div className="links">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/sathyamoorthy01?igsh=MTMwMmc0YW44c2Vycg==" target="_blank" rel="noopener noreferrer">
               <img src={Instagram} alt="Instagram" className="link" />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -73,3 +73,4 @@ const Contact = () => {
 
 
 export default Contact;
+
