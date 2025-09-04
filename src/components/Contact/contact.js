@@ -52,15 +52,24 @@ const Contact = () => {
           <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
           <button type="submit"  value='send' className="submitBtn">Submit</button>
           <div className="links">
-            <img src={Instagram} alt="Instagram" className="link" />
-            <img src={Facebook1} alt="Facebook" className="link" />
-            <img src={Twitter} alt="Twitter" className="link" />
-            <img src={Youtube} alt="YouTube" className="link" />
-          </div>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <img src={Instagram} alt="Instagram" className="link" />
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <img src={Facebook1} alt="Facebook" className="link" />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <img src={Twitter} alt="Twitter" className="link" />
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <img src={Youtube} alt="YouTube" className="link" />
+            </a>
+      </div>
         </form>
       </div>
     </section>
   );
 };
+
 
 export default Contact;
